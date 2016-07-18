@@ -1,0 +1,21 @@
+{
+    "collab_server" : "",
+    "contents" : "library(\"quantmod\")\n\ngetSymbols(\"AAPL\",src=\"yahoo\")\nbarChart(AAPL)\nchartSeries(AAPL[\"2007-05::2014-05\"],theme=\"white\")",
+    "created" : 1468565377002.000,
+    "dirty" : false,
+    "encoding" : "UTF-8",
+    "folds" : "",
+    "hash" : "940687806",
+    "id" : "DEE25136",
+    "lastKnownWriteTime" : 1468567502,
+    "last_content_update" : 1468567502666,
+    "path" : "C:/Users/jonathan/Desktop/NTU R class/testProject/testProject.Rproj",
+    "project_path" : "testProject.Rproj",
+    "properties" : {
+        "tempName" : "Untitled1"
+    },
+    "relative_order" : 3,
+    "source_on_save" : false,
+    "source_window" : "",
+    "type" : "text"
+}

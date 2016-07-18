@@ -1,0 +1,20 @@
+{
+    "collab_server" : "",
+    "contents" : "\nhello <- function(x) {\n  x^2\n}\n",
+    "created" : 1468567637263.000,
+    "dirty" : false,
+    "encoding" : "UTF-8",
+    "folds" : "",
+    "hash" : "2788684041",
+    "id" : "DA71BF98",
+    "lastKnownWriteTime" : 1468568568,
+    "last_content_update" : 1468568568854,
+    "path" : "C:/Users/jonathan/Desktop/NTU R class/testPackage/R/hello.R",
+    "project_path" : "R/hello.R",
+    "properties" : {
+    },
+    "relative_order" : 1,
+    "source_on_save" : false,
+    "source_window" : "",
+    "type" : "r_source"
+}

@@ -1,0 +1,20 @@
+{
+    "collab_server" : "",
+    "contents" : "#\n# This is the server logic of a Shiny web application. You can run the \n# application by clicking 'Run App' above.\n#\n# Find out more about building applications with Shiny here:\n# \n#    http://shiny.rstudio.com/\n#\n\nlibrary(shiny)\nlibrary(\"quantmod\")\n# Define server logic required to draw a histogram\nshinyServer(function(input, output) {\n   \n  output$distPlot <- renderPlot({\n    \n    # generate bins based on input$bins from ui.R\n    x    <- faithful[, 2] \n    bins <- seq(min(x), max(x), length.out = input$bins + 1)\n    \n    # draw the histogram with the specified number of bins\n    hist(x, breaks = bins, col = 'darkgray', border = 'white')\n    \n  })\n  output$testPlot <- renderPlot({\n    getSymbols(\"AAPL\",src=\"yahoo\")\n    barChart(AAPL)\n    chartSeries(AAPL[\"2007-05::2014-05\"],theme=\"white\")}) \n})\n",
+    "created" : 1468564286939.000,
+    "dirty" : false,
+    "encoding" : "UTF-8",
+    "folds" : "24|33|27|55|\n",
+    "hash" : "2242775409",
+    "id" : "3E682CFB",
+    "lastKnownWriteTime" : 1468565902,
+    "last_content_update" : 1468566239485,
+    "path" : "C:/Users/jonathan/Desktop/NTU R class/testProject/server.R",
+    "project_path" : "server.R",
+    "properties" : {
+    },
+    "relative_order" : 2,
+    "source_on_save" : false,
+    "source_window" : "",
+    "type" : "r_source"
+}

@@ -1,0 +1,28 @@
+{
+    "collab_server" : "",
+    "contents" : "",
+    "created" : 1468485865974.000,
+    "dirty" : false,
+    "encoding" : "",
+    "folds" : "",
+    "hash" : "0",
+    "id" : "DBBFD6CB",
+    "lastKnownWriteTime" : 3419473789575321445,
+    "last_content_update" : 1468485865974,
+    "path" : null,
+    "project_path" : null,
+    "properties" : {
+        "cacheKey" : "9uo8wv09ho",
+        "caption" : "TrainX",
+        "contentUrl" : "grid_resource/gridviewer.html?env=&obj=TrainX&cache_key=9uo8wv09ho",
+        "displayedObservations" : "2152",
+        "environment" : "",
+        "object" : "TrainX",
+        "totalObservations" : "2152",
+        "variables" : "7"
+    },
+    "relative_order" : 5,
+    "source_on_save" : false,
+    "source_window" : "",
+    "type" : "r_dataframe"
+}
